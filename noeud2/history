@@ -1,0 +1,9 @@
+admin.nodeInfo
+admin.peers
+admin.addPeer("enode://87bc6473ad604c86267fcfbdacfd27a3dfa1a69feb7482fca04a7224ed7f58b47de5abe7874f0c395bf6e951e13b37d3efad54510982827c2cf68d57567f092a@127.0.0.1:30303?discport=0")
+admin.peers
+eth.getBlock(3)
+eth.getBalance(eth.accounts[0])
+eth.getBlock(3)
+eth.getBalance(eth.coinbase)
+admin.nodeInfo

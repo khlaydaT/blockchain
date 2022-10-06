@@ -1,0 +1,10 @@
+admin.nodeInfo
+admin.peers
+admin.nodeInfo
+miner.start(1)
+miner.stop()
+eth.getBlock(3)
+eth.getBalance(eth.coinbase)
+miner.start(1)
+miner.stop()
+eth.getBlock(3)
