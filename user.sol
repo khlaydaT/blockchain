@@ -4,6 +4,7 @@ import "stringUtils.sol";
 contract userRecords {
  // enum type variable to store user gender
  enum genderType {male,female}
+ 
  // Actual user object which we will store
  struct user{
  string name;
@@ -14,6 +15,7 @@ contract userRecords {
  //Internal function to conver genderType enum from string
  function getGenderFromString(string gender) internal returns (genderType) {
  if(StringUtils.equal(gender, "male")) {
+ print("GEndddddddddddder : male"); 
  return genderType.male;
  } else {
  return genderType.female;
